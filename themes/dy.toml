@@ -1,0 +1,6 @@
+inherits = "ttox"
+
+"warning" = { bg = "default", fg = "light-yellow" }
+"error" = { bg = "default", fg = "light-red" }
+"hint" = { bg = "default", fg = "light-blue" }
+
