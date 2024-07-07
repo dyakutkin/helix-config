@@ -6,8 +6,7 @@ theme="dy"
 
 [editor]
 line-number = "relative"
-#bufferline = "multiple"
 shell = ["zsh", "-c"]
 
 [keys.normal]
-C-g = [":vnew", ":insert-output git diff", ":set-language diff", "move_visual_line_down"]
+C-g = [":vnew", ":insert-output git diff ':!Cargo*'", ":set-language diff", "move_visual_line_down"]

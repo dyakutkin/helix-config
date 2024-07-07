@@ -4,3 +4,5 @@ inherits = "ttox"
 "error" = { bg = "default", fg = "light-red" }
 "hint" = { bg = "default", fg = "light-blue" }
 
+"comment" = { bg = "default", fg = "gray" }
+"constant" = { bg = "magenta", fg = "black" }
