@@ -1,3 +1,17 @@
 [[language]]
 name = "json"
 indent = {tab-width = 4, unit = " "}
+
+
+[[language]]
+name = "python"
+roots = ["pyproject.toml", "setup.py", "Poetry.lock", ".git"]
+language-servers = ["pyright-langserver"]
+auto-format = true
+formatter = {command = 'black', args = ["--quiet", "-"]}
+
+
+[language-server.pyright-langserver]
+command = "pyright-langserver"
+args = ["--stdio"]
+config = {}
