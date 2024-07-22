@@ -5,4 +5,10 @@ inherits = "ttox"
 "hint" = { bg = "default", fg = "light-blue" }
 
 "comment" = { bg = "default", fg = "gray" }
-"constant" = { bg = "magenta", fg = "black" }
+"constant" = { bg = "light-cyan", fg = "black" }
+"string" = { bg = "green", fg = "black" }
+
+"ui.statusline.inactive" = { fg = "black", bg = "gray" }
+"ui.statusline.normal" = { fg = "black", bg = "magenta" }
+"ui.statusline.insert" = { fg = "black", bg = "yellow" }
+"ui.statusline.select" = { fg = "black", bg = "light-cyan" }
