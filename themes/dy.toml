@@ -3,6 +3,9 @@ inherits = "ttox"
 "warning" = { bg = "default", fg = "light-yellow" }
 "error" = { bg = "default", fg = "light-red" }
 "hint" = { bg = "default", fg = "light-blue" }
+"diff.plus" = { bg = "light-green", fg = "light-green" }
+"diff.minus" = { bg = "red", fg = "red" }
+"diff.delta" = { bg = "yellow", fg = "yellow"}
 
 "comment" = { bg = "default", fg = "gray" }
 "constant" = { bg = "light-cyan", fg = "black" }
