@@ -1,17 +1,23 @@
 inherits = "ttox"
 
+"ui.text" = "my-yel"
+
 "warning" = { bg = "default", fg = "light-yellow" }
 "error" = { bg = "default", fg = "light-red" }
+"diagnostic.error" = { bg = "light-red", fg = "default"}
 "hint" = { bg = "default", fg = "light-blue" }
-"diff.plus" = { bg = "light-green", fg = "light-green" }
-"diff.minus" = { bg = "red", fg = "red" }
-"diff.delta" = { bg = "yellow", fg = "yellow"}
+"diff.plus" = { bg = "light-green", fg = "black" }
+"diff.minus" = { bg = "red", fg = "black" }
+"diff.delta" = { bg = "yellow", fg = "black"}
 
-"comment" = { bg = "default", fg = "gray" }
-"constant" = { bg = "light-cyan", fg = "black" }
-"string" = { bg = "green", fg = "black" }
+"comment" = { fg = "gray", bg = "default" , modifiers = ["bold"]}
+"constant" = { fg = "light-cyan", bg = "black" , modifiers = ["bold"]}
+"string" = { fg = "green", bg = "black" , modifiers = ["bold"]}
 
 "ui.statusline.inactive" = { fg = "black", bg = "gray" }
 "ui.statusline.normal" = { fg = "black", bg = "magenta" }
 "ui.statusline.insert" = { fg = "black", bg = "yellow" }
 "ui.statusline.select" = { fg = "black", bg = "light-cyan" }
+
+[palette]
+my-yel = "#f5f5dc"
