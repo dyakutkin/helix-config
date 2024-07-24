@@ -14,7 +14,7 @@ inherits = "ttox"
 "constant" = { fg = "light-cyan", bg = "black" , modifiers = ["bold"]}
 "string" = { fg = "green", bg = "black" , modifiers = ["bold"]}
 
-"ui.statusline.inactive" = { fg = "black", bg = "gray" }
+"ui.statusline.inactive" = { fg = "gray"}
 "ui.statusline.normal" = { fg = "black", bg = "magenta" }
 "ui.statusline.insert" = { fg = "black", bg = "yellow" }
 "ui.statusline.select" = { fg = "black", bg = "light-cyan" }
